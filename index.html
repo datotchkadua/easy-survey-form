@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header class="title">
+      <h1>Survey form</h1>
+    </header>
+    <section>
+      <div class="container">
+        <div class="description">
+          <p>How we can improve skills</p>
+        </div>
+        <form class="survey-form">
+          <div class="row-tab">
+            <div class="label-tab">
+              <label>Name</label>
+            </div>
+            <div class="input-tab">
+              <input type="text" name="name" placeholder="Enter your name" />
+            </div>
+          </div>
+
+          <div class="row-tab">
+            <div class="label-tab">
+              <label>Email</label>
+            </div>
+            <div class="input-tab">
+              <input type="email" name="email" placeholder="Enter your Email" />
+            </div>
+          </div>
+
+          <div class="row-tab">
+            <div class="label-tab">
+              <label>Age</label>
+            </div>
+            <div class="input-tab">
+              <input type="number" name="age" placeholder="Age" />
+            </div>
+          </div>
+
+          <div class="row-tab">
+            <div class="label-tab">
+              <label> which option best describes your current role? </label>
+            </div>
+            <div class="select-tab">
+              <select class="select-box">
+                <option>Student</option>
+                <option>Job holder</option>
+                <option>Businessman</option>
+              </select>
+            </div>
+          </div>
+          <div class="row-tab">
+            <div class="label-tab">
+              <label
+                >How likely is that you would recommend Moiare to a
+                friend</label
+              >
+            </div>
+            <div class="input-tab">
+              <div>
+                <input type="radio" name="suggest" value="Definitely" /><label
+                  >Definitely</label
+                >
+              </div>
+              <div>
+                <input type="radio" name="suggest" value="Maybe" /><label
+                  >Maybe</label
+                >
+              </div>
+              <div>
+                <input type="radio" name="suggest" value="Not sure" /><label
+                  >Not sure</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="row-tab">
+            <div class="label-tab">
+              <label>What do you like most in Moiare</label>
+            </div>
+            <div class="select-tab">
+              <select class="select-box">
+                <option>Select an option</option>
+                <option>Option-1</option>
+                <option>Option-2</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row-tab">
+            <div class="label-tab">
+              <label
+                >Things that should be improved in the future (Check all that
+                apply)</label
+              >
+            </div>
+            <div class="input-tab">
+              <div>
+                <input
+                  type="radio"
+                  name="project"
+                  value="Font-end project "
+                /><label>Font-end Project</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="project"
+                  value="Back-end project "
+                /><label>Back-end Project</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="project"
+                  value="Data visulization "
+                /><label>Data visulization</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
